@@ -9,7 +9,7 @@ import { Trash } from 'bootstrap-icons/icon/trash-fill.vue';
           <div v-for="(product, index) in wishList" :key="index" class="col-lg-3 col-md-6 col-sm-6 d-flex">
             <div class="card w-100 my-2 shadow-2-strong">
               <a href="#">
-                <img :src="product.picture" class="card-img-top mx-auto mt-3" style="aspect-ratio: 1 / 1; width: 50%; height: auto" />
+                <img alt="producto" :src="product.picture" class="card-img-top mx-auto mt-3" style="aspect-ratio: 1 / 1; width: 50%; height: auto" />
               </a>
               <div class="card-body d-flex flex-column" style="max-height: 300px;">
                 <h5 class="card-title">{{ product.title }}</h5>

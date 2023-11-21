@@ -36,6 +36,10 @@
           </div>
         </div>
         <table class="table">
+          <caption>Esta tabla muestra los filtros según la búsqueda de un usuario</caption>
+          <th>
+            <td></td>
+          </th>
           <tbody>
             <tr v-for="filtro in availableFilters.availableFilters" :key="filtro.filterId">
               <td style="background-color: #F1F1F1; padding: 10px;">
@@ -55,7 +59,9 @@
       </div>
       <div class="col-9 "> <!--lista de artículos-->
         <table>
+          <caption>Esta tabla despliega los productos obtenidos de mercadolibre</caption>
           <tbody>
+            <th><td></td></th>
             <tr v-for="producto in this.productos" :key="producto.id">
               <div class="row">
                 <div class="col-4 border ps-3">

@@ -41,6 +41,13 @@
             </div>
             <div class="row">
                 <table class="table table-striped">
+                    <caption>Esta tabla muestra las características del producto</caption>
+                    <th>
+                        <td></td>
+                    </th>
+                    <th>
+                        <td></td>
+                    </th>
                     <tbody>
                         <tr v-for="attribute in product.attributes" :key="attribute.name">
                             <td>{{ attribute.name }}</td>
